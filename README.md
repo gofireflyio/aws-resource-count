@@ -1,10 +1,12 @@
 # aws-resource-count
-Provides a tool to estimate the count of resources in an aws acccount
+Provides a tool to estimate the count of resources in an aws account.
+The tool uses AWS resource explorer to create a view of the resources in an account and then counts the number of resources by type.
+The view is deleted after the count is complete.
 
 ## Prerequisites
 * Python 3.6+
-* AWS Profiles configured in ~/.aws/config for the accounts of interest
-* AWS Resource Explorer enabled in the accounts of interest
+* [AWS Profiles configured](https://docs.aws.amazon.com/sdkref/latest/guide/file-format.html) in ~/.aws/config or ~/.aws/credentials for the accounts of interest
+* [AWS Resource Explorer](https://aws.amazon.com/resourceexplorer/) enabled in the accounts of interest
 
 ## Installation
 Setup a virtual environment
