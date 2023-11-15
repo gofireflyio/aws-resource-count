@@ -8,7 +8,13 @@ The view is deleted after the count is complete.
 * [AWS Profiles configured](https://docs.aws.amazon.com/sdkref/latest/guide/file-format.html) in ~/.aws/config or ~/.aws/credentials for the accounts of interest
 * [AWS Resource Explorer](https://aws.amazon.com/resourceexplorer/) enabled in the accounts of interest
 
-## Installation
+## Installation From Source
+Clone the repository and change directory
+```shell
+git clone https://github.com/gofireflyio/aws-resource-count.git
+cd aws-resource-count
+```
+
 Setup a virtual environment
 ```shell
 virtualenv venv
